@@ -1,0 +1,10 @@
+Backup criado em: Wed Nov  5 19:36:35 -03 2025
+Modelo: best_model_fe.h5
+Acurácia: 70.14%
+Total de imagens: 211
+Labels: labels.csv
+
+Para restaurar:
+1. cp backups/backup_20251105_193634/best_model_fe.h5 .
+2. cp backups/backup_20251105_193634/labels.csv .
+3. cp -r backups/backup_20251105_193634/dataset .

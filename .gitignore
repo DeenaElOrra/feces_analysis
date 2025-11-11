@@ -205,3 +205,60 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================================
+# PROJECT SPECIFIC - Feces Analysis
+# ============================================================
+
+# Machine Learning Models (GRANDES!)
+*.h5
+*.keras
+*.pb
+*.pt
+*.pth
+*.onnx
+*.tflite
+models_backup_v1/
+
+# Dataset Images (muitas imagens grandes)
+dataset/*.jpg
+dataset/*.jpeg
+dataset/*.png
+dataset/*.gif
+dataset/*.bmp
+teste/*.jpg
+teste/*.jpeg
+teste/*.png
+uploads/*.jpg
+uploads/*.jpeg
+uploads/*.png
+
+# Manter apenas labels CSV
+!labels.csv
+!labels_backup_v1.csv
+
+# Logs de treinamento
+*.log
+retrain*.log
+test*.log
+training*.log
+
+# Resultados temporários
+*_results.txt
+fair_evaluation_results.txt
+balanced_training_results.txt
+evaluation_V2_results.txt
+
+# Notebooks checkpoint
+*.ipynb_checkpoints/
+
+# Arquivos temporários do Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# VSCode
+.vscode/
