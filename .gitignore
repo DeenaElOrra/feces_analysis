@@ -262,3 +262,86 @@ evaluation_V2_results.txt
 
 # VSCode
 .vscode/
+
+# ============================================================
+# BACKEND SPECIFIC
+# ============================================================
+
+# Database
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+feces_app.db
+backend/feces_app.db
+
+# Uploads folder (images grandes)
+uploads/
+backend/uploads/
+
+# ============================================================
+# MOBILE APP (React Native / Expo)
+# ============================================================
+
+# Node modules
+mobile-app/node_modules/
+node_modules/
+
+# Expo
+mobile-app/.expo/
+mobile-app/.expo-shared/
+.expo/
+.expo-shared/
+
+# Metro bundler
+mobile-app/.metro-health-check*
+.metro-health-check*
+
+# Build artifacts
+mobile-app/android/
+mobile-app/ios/
+mobile-app/dist/
+mobile-app/build/
+
+# Native build output
+*.ipa
+*.apk
+*.aab
+*.app
+
+# NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment
+mobile-app/.env
+mobile-app/.env.local
+
+# ============================================================
+# BACKUPS & AUGMENTED DATA
+# ============================================================
+
+# Backup folders (não versionar)
+backups/
+backup_*/
+*_backup/
+
+# Augmented datasets (gerados automaticamente)
+dataset_augmented*/
+dataset_augmented_TEST/
+
+# ============================================================
+# DEPLOYMENT
+# ============================================================
+
+# Railway/Render logs
+railway-debug.log
+render-debug.log
+
+# Temporary deployment files
+deploy_temp/

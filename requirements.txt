@@ -22,3 +22,4 @@ ipykernel>=6.25.0
 
 # Optional: Progress bars
 tqdm>=4.65.0
+streamlit==1.28.0
