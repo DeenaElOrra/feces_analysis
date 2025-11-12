@@ -1,0 +1,26 @@
+Model: Modelo V2 (Desbalanceado)
+Accuracy: 0.2703
+
+AUC Scores:
+  Type 1: 0.8330
+  Type 2: 0.7321
+  Type 3: 0.6915
+  Type 4: 0.7337
+  Type 5: 0.6593
+  Type 6: 0.7295
+  Type 7: 0.8351
+  Micro-Average: 0.6272
+
+              precision    recall  f1-score   support
+
+      Type 1     0.3404    0.5161    0.4103        31
+      Type 2     0.0000    0.0000    0.0000        21
+      Type 3     0.0000    0.0000    0.0000        36
+      Type 4     0.2222    0.9444    0.3598        36
+      Type 5     0.0000    0.0000    0.0000        36
+      Type 6     0.0000    0.0000    0.0000        36
+      Type 7     0.5263    0.3846    0.4444        26
+
+    accuracy                         0.2703       222
+   macro avg     0.1556    0.2636    0.1735       222
+weighted avg     0.1452    0.2703    0.1677       222
